@@ -18,7 +18,7 @@ test_command() {
 }
 
 export WORKSPACE_DIR=~/littlefair_workspace
-export REPO_DIR=/lustre/home/$(whoami)/repos/yaap-edna
+export REPO_DIR=~/repos/yaap-edna
 
 #not sure why conda init is not able to setup conda properly on myriad
 #but this method is a workaround
