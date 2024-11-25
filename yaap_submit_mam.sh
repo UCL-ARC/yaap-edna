@@ -5,7 +5,9 @@
 #$ -l h_vmem=2G
 #$ -m e
 
+source ~/miniforge3/etc/profile.d/conda.sh
 conda activate yaap
+export PATH=${PATH}:~/bin
 
 # Pipeline  requires 9 arguments:
 # 1. File with a list of fileset prefix (one per line)
