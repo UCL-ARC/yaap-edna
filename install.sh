@@ -3,6 +3,7 @@
 #
 # Rob Vickerstaff 2024-10-04
 # following https://github.com/ilevantis/YAAP?tab=readme-ov-file#installation
+# see https://github.com/UCL-ARC/yaap-edna
 #
 
 set -eu
