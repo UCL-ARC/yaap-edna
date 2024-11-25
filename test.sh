@@ -29,3 +29,6 @@ for CMD in \
 do
     test_command $CMD
 done
+
+#copy across test data
+rsync -a ccaervi@rdp-ssh.arc.ucl.ac.uk:/rdss/rd01/ritd-ag-project-rd01t5-jlitt26/test* .
