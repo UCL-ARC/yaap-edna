@@ -75,7 +75,7 @@ Or (Powershell):
 type ~\.ssh\id_ed25519.pub | ssh myriad "cat >> .ssh/authorized_keys"
 ```
 
-You should now be able to login to myriad without entering your password (unless you set an ssh key passphrase) using:
+You should now be able to login to myriad without entering your password using:
 ```
 ssh myriad
 ```
